@@ -24,9 +24,6 @@ class Owner
     @@all.clear
     @@count = 0
     
-    @pets.each do |key, array|
-    @pets[key]=[]
-    end
   end
   
   
