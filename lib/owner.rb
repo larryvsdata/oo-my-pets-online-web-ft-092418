@@ -51,7 +51,7 @@ class Owner
      end
      
      def walk_dogs
-       self.pets[:dogs] = self.pets[:dogs].map
+       self.pets[:dogs] = self.pets[:dogs].map{ |dog| dog.  }
      end
   
   
