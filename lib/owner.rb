@@ -23,4 +23,8 @@ class Owner
     @@count = 0
   end
   
+  def say_species
+    
+  end
+  
 end
