@@ -50,7 +50,9 @@ class Owner
     
      end
      
-     def 
+     def walk_dogs
+       self.pets[:dogs] = self.pets[:dogs].map
+     end
   
   
 end
