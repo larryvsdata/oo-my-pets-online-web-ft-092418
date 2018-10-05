@@ -63,7 +63,7 @@ class Owner
      end
      
      def sell_pets
-       self.pets.map{ |k,v| self.pets[k] = [] }
+       @pets.map{ |k,v| self.pets[k] = [] }
        
      end
      
