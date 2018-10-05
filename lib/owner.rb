@@ -63,9 +63,11 @@ class Owner
      end
      
      def sell_pets
-      @pets = @pets.map do 
-        |k,v|  
-        v=v.map{ |p| p.mood="nervous" }   @pets[k] = [] }
+       @pets.each do  |k,v|
+          
+        v=v.map{ |p| p.mood="nervous" }   
+        @pets[k] = [] 
+      end
        
      end
      
