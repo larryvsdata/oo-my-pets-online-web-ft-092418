@@ -23,6 +23,10 @@ class Owner
   def self.reset_all
     @@all.clear
     @@count = 0
+    @pets.each do |key, array|
+    puts "#{key}-----"
+    puts array
+  end
   end
   
   def say_species
