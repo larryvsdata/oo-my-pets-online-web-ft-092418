@@ -23,10 +23,13 @@ class Owner
   def self.reset_all
     @@all.clear
     @@count = 0
+    
     @pets.each do |key, array|
     @pets[key]=[]
+    end
   end
-  end
+  
+  
   
   def say_species
    "I am a #{@species}."
