@@ -9,6 +9,7 @@ class Owner
     @@all << self
     @@count += 1
     @species = "human"
+    @pets = 
   end
   
   def self.all
