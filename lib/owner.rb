@@ -53,6 +53,10 @@ class Owner
      def walk_dogs
        self.pets[:dogs] = self.pets[:dogs].map{ |dog| dog.mood="happy"  }
      end
+     
+      def walk_dogs
+       self.pets[:dogs] = self.pets[:dogs].map{ |dog| dog.mood="happy"  }
+     end
   
   
 end
