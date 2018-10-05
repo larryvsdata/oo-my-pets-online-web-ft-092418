@@ -62,6 +62,10 @@ class Owner
        self.pets[:fishes] = self.pets[:fishes].map{ |fish| fish.mood="happy"  }
      end
      
+     def sell_pets
+       self.pets.map{ |k,v| self.pets[k] = [] }
+       
+     end
      
   
   
