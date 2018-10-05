@@ -23,10 +23,7 @@ class Owner
   def self.reset_all
     @@all.clear
     @@count = 0
-    hash.each do |key, array|
-    puts "#{key}-----"
-    puts array
-    end
+
   end
   
   
@@ -37,6 +34,7 @@ class Owner
   
   def buy_fish (name)
     fish=Fish.new(name)
+    self.pets[:fish] << fish
     
   end
   
