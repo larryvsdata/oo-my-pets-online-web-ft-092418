@@ -23,7 +23,10 @@ class Owner
   def self.reset_all
     @@all.clear
     @@count = 0
-    
+    hash.each do |key, array|
+    puts "#{key}-----"
+    puts array
+    end
   end
   
   
